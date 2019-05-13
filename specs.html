@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+body  {
+  font-family: verdana;
+  margin: 40px;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+th  {
+  background-color: lightgray;
+}
+
+h4  {
+  color: rgb(0, 105, 217);
+}
+#specs  {
+  font-size: 1.3rem;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Behavior Driven Development Process (BDD)</h2>
+<p>A table of specs that demonstrate what each behavior should look like in action:</p>
+
+<table style="width:100%">
+  <tr id="specs">
+    <th>Behaviour</th>
+    <th>Input Example</th>
+    <th>Output Example</th>
+  </tr>
+  <tr>
+    <th>The Program should handle:</th>
+    <th>When it receives:</th>
+    <th>It should return:</th>
+  </tr>
+  <tr>
+    <td>a year that is NOT a Leap year</td>
+    <td>1993</td>
+    <td>false</td>
+  </tr>
+  <tr>
+    <td>a year that is divisible by 4</td>
+    <td>2004</td>
+    <td>true</td>
+  </tr>
+  <tr>
+    <td>a year that is divisible by 100</td>
+    <td>1900</td>
+    <td>false</td>
+  </tr>
+  <tr>
+    <td>a year that is divisible by 400</td>
+    <td>2000</td>
+    <td>true</td>
+  </tr>
+</table>
+
+<h3>How to follow-up with Behavior-Driven Development Process</h3>
+
+<h4>1. Identify Specifications/Behaviors!</h4>
+<p>Identify the behaviors your program should exhibit. Include example input and output that would demonstrate this behavior is working.</p>
+
+<p>Make sure each behavior truly is a single behavior. In the leap year example, checking that the number is divisible by 400 and checking if the number is divisible by 4 are two separate ways to check for a leap year, and are therefore two separate behaviors, even though they both result in the program returning true.</p>
+
+<h4>2. Code the Behaviors!</h4>
+<p>Beginning with the simplest possible behavior, add the least amount of code to integrate this behavior into the application.</p>
+
+<h4>3. Test!</h4>
+<p>Write automated tests to check your code but knowing how to test manually is a good foundation. Enter the example input that corresponds to your first specification. Check to see if you receive the example output.</p>
+
+<p>If not, it's evident that the behavior is not functioning as expected, and you'll need to revisit your code.</p>
+
+<h4>4. Commit</h4>
+<p>If you do receive the correct output, your spec passes! Each time a new test passes, you'll want to commit your work.</p>
+
+<h4>5. Repeat!</h4>
+<p>Repeat this same process for each specification. Begin with the simplest possible spec, and work your way up in complexity.</p>
+
+<h4>Refactor!</h4>
+<p>Whenever necessary, refactor between specifications. Just ensure your previously passing specs still pass after refactoring.</p>
+
+
+
+
+
+</body>
