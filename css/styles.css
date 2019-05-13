@@ -1,0 +1,20 @@
+body  {
+  font-size: 1.5rem;
+}
+
+h1  {
+   text-transform: uppercase;
+}
+
+#detector {
+  font-size: 1.2rem;
+}
+
+#result  {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn  {
+  margin: 20px 0 20px 0;
+}
