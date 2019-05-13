@@ -7,23 +7,23 @@ _By **Josh Hortt**_
 
 ## Goal
 
-_Branching, Arrays & Looping Practice: using the **.parseInt(), .alert() .submit(), .toString()_<br/>
-_and .text() methods** in JavaScript_.
+_Branching, Arrays & Looping Practice: using the .parseInt(), .alert() .submit(), .toString()_<br/>
+_and .text() methods in JavaScript_.
 
 ## Description
 
-_The program should return when a year is Not a leap year_.
-  _Input Example: 1993_
-  _Output Example: false_
-_The program should return 'true' for years divisible by 4, since those are leap years_.
-  _Input Example: 2004_
-  _Output Example: true_
-_The program should return 'false' for years divisible by 100, since those are not leap years_.
-  _Input Example: 1900_
-  _Output Example: false_
-_The program should return 'true' for years divisible by 400, since those are leap years_.
-  _Input Example: 2000_
-  _Output Example: true_
+_**The program should return when a year is Not a leap year**_.<br/>
+_Input Example: 1993_<br/>
+_Output Example: false_<br/>
+_**The program should return 'true' for years divisible by 4, since those are leap years**_.<br/>
+_Input Example: 2004_<br/>
+_Output Example: true_<br/>
+_**The program should return 'false' for years divisible by 100, since those are not leap years**_.<br/>
+_Input Example: 1900_<br/>
+_Output Example: false_<br/>
+_**The program should return 'true' for years divisible by 400, since those are leap years**_.<br/>
+_Input Example: 2000_<br/>
+_Output Example: true_
 
 ## Setup/Installation Requirements
 
